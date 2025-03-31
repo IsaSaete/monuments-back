@@ -1,0 +1,16 @@
+{
+  "name": "monuments-back",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "build:dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
