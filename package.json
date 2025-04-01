@@ -1,6 +1,7 @@
 {
   "name": "monuments-back",
   "version": "1.0.0",
+  "main": "dist/",
   "scripts": {
     "start": "node .",
     "build": "tsc",
