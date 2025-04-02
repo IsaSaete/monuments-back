@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "NodeNext",
     "esModuleInterop": true,
     "outDir": "./dist/",
     "noEmitOnError": true,
@@ -9,7 +9,8 @@
     "noImplicitAny": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "isolatedModules": true
   },
   "include": ["src/**/*.ts"]
 }
