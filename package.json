@@ -23,9 +23,9 @@
     "prettier": "3.5.3",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.29.0",
-    "@types/chalk": "^0.4.31"
+    "chalk": "^5.4.1"
   },
   "dependencies": {
-    "chalk": "^4.1.0"
+    "uuidv4": "^6.2.13"
   }
 }
