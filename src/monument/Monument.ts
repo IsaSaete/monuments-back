@@ -2,9 +2,9 @@ import { v4 as uuidv4 } from "uuid";
 import { Location, MonumentStructure } from "./types";
 
 class Monument implements MonumentStructure {
-  id: string;
-  country: string;
-  city: string;
+  public id: string;
+  public country: string;
+  public city: string;
 
   constructor(
     public name: string,
