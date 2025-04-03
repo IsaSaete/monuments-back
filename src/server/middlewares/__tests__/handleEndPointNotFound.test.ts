@@ -1,5 +1,5 @@
 import { Response, Request } from "express";
-import handleEndpointNotFound from "./handleEndpointNotFound";
+import handleEndpointNotFound from "../handleEndpointNotFound";
 
 describe("Given the handleEndPointNotfound middleware", () => {
   describe("When it receives a response", () => {
@@ -22,11 +22,9 @@ describe("Given the handleEndPointNotfound middleware", () => {
     });
 
     test("Then it should call the received response's method json with a error message 'Endpoint not found'", () => {
-      const expectedError = { error: "Endpoint not found" };
-
       handleEndpointNotFound(req, res as Response);
 
-      expect(res.json).toHaveBeenCalledWith(expectedError);
+      expect(res.json).toHaveBeenCalledWith({ error: "Endpoint not found" });
     });
   });
 });
