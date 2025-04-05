@@ -9,14 +9,9 @@ const app = express();
 
 app.use(morgan("dev"));
 
-const origins = [
-  "https://https://monumentisa.netlify.app/",
-  "http://localhost:5173/",
-];
-
 app.use(
   cors({
-    origin: origins,
+    origin: true,
     credentials: true,
   }),
 );
