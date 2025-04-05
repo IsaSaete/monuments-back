@@ -19,6 +19,7 @@
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "@eslint/js": "^9.23.0",
+    "@types/cors": "^2.8.17",
     "@types/jest": "^29.5.14",
     "chalk": "^5.4.1",
     "eslint": "^9.23.0",
@@ -37,6 +38,7 @@
     "@types/express": "^5.0.1",
     "@types/morgan": "^1.9.9",
     "@types/uuid": "^10.0.0",
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "morgan": "^1.10.0",
     "uuid": "^11.1.0"

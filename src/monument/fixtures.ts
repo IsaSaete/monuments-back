@@ -1,5 +1,5 @@
-import { MonumentStructure } from "../types";
-import Monument from "../Monument";
+import { MonumentStructure } from "./types";
+import Monument from "./Monument";
 
 const fanflins = new Monument(
   "Fanflins",
