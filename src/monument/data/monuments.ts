@@ -36,10 +36,18 @@ export const headingtonShark = new Monument(
   { city: "Oxford", country: "England" },
 );
 
+export const angkorWat = new Monument(
+  "Angkor Wat",
+  "A temple dating back to the 1100s. It is the world's largest religious structure.",
+  "https://panavision-tours.es/viajes/angkor-wat/angkor-wat.jpg",
+  { city: "Siem Riep", country: "Cambodia" },
+);
+
 export const monuments: MonumentStructure[] = [
   africanRenaissance,
   cadillacRanch,
   fallenAngel,
   lePouce,
   headingtonShark,
+  angkorWat,
 ];
