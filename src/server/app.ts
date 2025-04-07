@@ -16,6 +16,8 @@ app.use(
   }),
 );
 
+app.use(express.json());
+
 app.get("/", checkHealthStatus);
 
 app.use("/monuments", monumentRouter);
